@@ -1,0 +1,112 @@
+/* Variables para colores y tipografía */
+:root {
+    --principal: #17365d;
+    --secundario: #2f75b5;
+    --fondo: #f5f7fa;
+    --blanco: #ffffff;
+    --texto: #202020;
+    --borde: #d9d9d9;
+}
+
+/* Reset básico del modelo de caja */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--texto);
+    background-color: var(--fondo);
+    padding: 20px;
+}
+
+/* Encabezado y Navegación */
+header {
+    background-color: var(--principal);
+    color: var(--blanco);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header .subtitulo {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Secciones generales */
+section {
+    background-color: var(--blanco);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--borde);
+}
+
+section h2 {
+    color: var(--principal);
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--secundario);
+    padding-bottom: 5px;
+}
+
+/* Tarjetas de Proyectos */
+.tarjeta {
+    background-color: var(--fondo);
+    border: 1px solid var(--borde);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+    color: var(--secundario);
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    margin-bottom: 8px;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+    font-size: 0.9rem;
+}

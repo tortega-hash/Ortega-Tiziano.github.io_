@@ -1,0 +1,21 @@
+# Bitácora de inteligencia artificial
+
+## Consulta 1
+- **Fecha:** 11/11/2026
+- **Herramienta utilizada:** Asistente IA
+- **Objetivo:** Generar la estructura base semántica en HTML y el CSS inicial para el portfolio v0.1.
+- **Prompt completo:** "Necesito una estructura semántica para un portfolio con encabezado, navegación, presentación, sobre mí, proyectos, habilidades, contacto y pie de página en HTML5 y CSS3."
+- **Parte utilizada:** Estructura de etiquetas HTML (`header`, `nav`, `main`, `section`, `article`, `footer`) y las variables CSS de color.
+- **Cambios realizados por mí:** Completé mis datos personales, edité las preguntas orientadoras de los 3 proyectos y ajusté las rutas de imágenes a `assets/img/`.
+- **¿Qué comprendí?** Comprendí cómo conectar el menú interno mediante los enlaces `<a href="#id">` con el atributo `id` de cada sección.
+- **¿Qué descarté y por qué?** Descarté código JavaScript complejo porque para esta versión 0.1 solo necesitamos estructura HTML y diseño CSS.
+
+## Consulta 2
+- **Fecha:** 11/11/2026
+- **Herramienta utilizada:** Asistente IA
+- **Objetivo:** Verificar las reglas del modelo de caja y estilos de tarjetas para la sección de proyectos.
+- **Prompt completo:** "Creá un CSS inicial con variables de color, tipografía legible, espaciados y tarjetas para proyectos."
+- **Parte utilizada:** Las reglas de la clase `.tarjeta` y la declaración `:root`.
+- **Cambios realizados por mí:** Cambié las tonalidades de color primario para adaptarlo a mi gusto personal.
+- **¿Qué comprendí?** La diferencia entre `padding` (espacio interno) y `margin` (espacio exterior).
+- **¿Qué descarté y por qué?** Sombras complejas y animaciones CSS para mantener el diseño limpio y liviano.
